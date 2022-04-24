@@ -16,4 +16,7 @@ pub fn build(b: *std.build.Builder) void
     raylib.addAsPackage("raylib", app);
     raylib.math.addAsPackage("raylib-math", app);
     app.install();
+
+    const runTests = b.step("test", "Run tests");
+    _ = runTests; // no tests
 }
