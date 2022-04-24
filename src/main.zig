@@ -7,7 +7,7 @@ pub fn main() void
     const screenWidth = 800;
     const screenHeight = 450;
 
-    rl.InitWindow(screenWidth, screenHeight, "raylib-zig [core] example - basic window");
+    rl.InitWindow(screenWidth, screenHeight, "raylib Example");
 
     rl.SetTargetFPS(60);
 
