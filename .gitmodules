@@ -1,0 +1,3 @@
+[submodule "deps/raylib-zig"]
+	path = deps/raylib-zig
+	url = https://github.com/kapricorn-media/raylib-zig.git
